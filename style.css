@@ -149,7 +149,6 @@ a.active, .nav a:hover{
     color:white; 
     font-size:42px; 
     text-transform:uppercase;
-    text-shadow: 2px 2px #000000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -287,4 +286,14 @@ a.active, .nav a:hover{
 .modal-content {
     background-color: #000000 !important;
     color: white;
+}
+
+/* Food */
+
+#food {
+    margin: 100px 0 0 300px;
+    background-color: black;
+    width: 700px;
+    height: 690px;
+    padding-top: 10px;
 }
