@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url('../Web-static/a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto
+}
+
+.nav{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 5px 0;
+    float: left;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    transition: 300ms;
+}
+
+a.active, .nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.a{
+    width: 85%;
+    height: 90px;
+    font-size: 28px;
+    line-height: 90px;
+}
+
+.b{
+    width: 65%;
+    height: 90px;
+    font-size: 28px;
+    line-height: 90px;
+}
+
+.c{
+    width: 80%;
+    height: 90px;
+    font-size: 28px;
+    line-height: 90px;
+}
+
+.d{
+    width: 65%;
+    height: 90px;
+    font-size: 28px;
+    line-height: 90px;
+}
+
+.e{
+    width: 85%;
+    height: 90px;
+    font-size: 28px;
+    line-height: 90px;
+}
+
+.btn{
+    line-height: 15px;
+    height: 35px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.content{
+    position: absolute;
+    width: 930px;
+    min-height: 500px;
+    height: auto;
+    right: 0;
+    bottom: 10px;
+}
+
+.home{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.home h1{
+    font-size: 80px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+}
+
+.home h3{
+    font-size: 20px;
+    padding-right: 5px 0;
+    opacity: 0.6;
+}
+
