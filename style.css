@@ -45,6 +45,7 @@ a.active, .nav a:hover{
     background-color: white;
     color: black;
     width: 100%;
+    text-decoration: none;
 }
 
 .a{
@@ -136,6 +137,7 @@ a.active, .nav a:hover{
 }
 
 .photo {
+    margin-left: 15px;
     max-width: 200px;
     height: auto;
 }
@@ -164,4 +166,125 @@ a.active, .nav a:hover{
     color:white;
     font-family: 'Roboto', sans-serif;
     background-color: #969696;
+}
+
+/* Tourist */
+
+#tourist .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tourist a { 
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    margin-top: 220px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#img {
+    margin: 50px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/3-color-beach.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+#img-2 {
+    margin: 50px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/singosari-temple.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+#img-3 {
+    margin: 50px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/Coban-Rondo.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+#img-4 {
+    margin: 30px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/Jodipan-Village.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+#img-5 {
+    margin: 30px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/wonosari-tea.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+#img-6 {
+    margin: 30px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/goa-china.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+#img-7 {
+    margin: 30px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/andeman.JPG');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+#img-8 {
+    margin: 30px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/asmara-bay-beach.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+#img-9 {
+    margin: 30px 0 0 250px;
+    background-color: black;
+    width: 270px;
+    height: 290px;
+    background-image: url('../quiz1/img/malang-night-paradise.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 220px;
+}
+
+.modal-content {
+    background-color: #000000 !important;
+    color: white;
 }
