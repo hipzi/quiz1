@@ -297,3 +297,12 @@ a.active, .nav a:hover{
     height: 690px;
     padding-top: 10px;
 }
+
+/* Hometown */
+
+#hometown {
+    margin: 100px 0 0 300px;
+    background-color: black;
+    width: 700px;
+    height: 700px;
+}
