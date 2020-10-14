@@ -13,7 +13,7 @@ html, body{
 .background{
     width: 100%;
     height: 100%;
-    background-image: url('../quiz1/img/a.jpg');
+    background-image: url('img/a.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -133,7 +133,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 700px;
     height: 500px;
-    background-image: url('../quiz1/img/background-profile-4.png');
+    background-image: url('img/background-profile-4.png');
 }
 
 .profile-title {
@@ -231,7 +231,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/3-color-beach.jpg');
+    background-image: url('img/3-color-beach.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -242,7 +242,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/singosari-temple.jpg');
+    background-image: url('img/singosari-temple.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -253,7 +253,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/Coban-Rondo.jpg');
+    background-image: url('img/Coban-Rondo.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -264,7 +264,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/Jodipan-Village.jpg');
+    background-image: url('img/Jodipan-Village.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -275,7 +275,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/wonosari-tea.png');
+    background-image: url('img/wonosari-tea.png');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -286,7 +286,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/goa-china.jpg');
+    background-image: url('img/goa-china.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -297,7 +297,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/andeman.JPG');
+    background-image: url('img/andeman.JPG');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -308,7 +308,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/asmara-bay-beach.jpg');
+    background-image: url('img/asmara-bay-beach.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -319,7 +319,7 @@ a.active, .nav a:hover{
     background-color: black;
     width: 270px;
     height: 290px;
-    background-image: url('../quiz1/img/malang-night-paradise.jpg');
+    background-image: url('img/malang-night-paradise.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 270px 220px;
@@ -388,7 +388,7 @@ a.active, .nav a:hover{
 .arema-fc {
     width: 220px;
     height: 180px;
-    background: transparent url("../quiz1/img/arema.jpg") no-repeat; 
+    background: transparent url("img/arema.jpg") no-repeat; 
     background-size: cover;
     position: relative;
 }
@@ -418,7 +418,7 @@ a.active, .nav a:hover{
 .walikan-language {
     width: 220px;
     height: 180px;
-    background: transparent url("../quiz1/img/language.jpg") no-repeat; 
+    background: transparent url("img/language.jpg") no-repeat; 
     background-size: cover;
     position: relative;
 }
@@ -448,7 +448,7 @@ a.active, .nav a:hover{
 .malangan-mask {
     width: 220px;
     height: 180px;
-    background: transparent url("../quiz1/img/Malangan-mask.jpg") no-repeat; 
+    background: transparent url("img/Malangan-mask.jpg") no-repeat; 
     background-size: cover;
     position: relative;
 }
