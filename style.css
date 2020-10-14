@@ -136,12 +136,6 @@ a.active, .nav a:hover{
     background-image: url('../quiz1/img/background-profile-4.png');
 }
 
-.photo {
-    margin-left: 15px;
-    max-width: 200px;
-    height: auto;
-}
-
 .profile-title {
     font-family: 'Roboto', sans-serif; 
     margin-top: -120px; 
@@ -167,6 +161,54 @@ a.active, .nav a:hover{
     background-color: #969696;
 }
 
+.photo {
+    margin-left: 15px;
+    max-width: 200px;
+    height: auto;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color:#000000;
+    color:#ffffff;
+}
+
+.flip-card-back {
+    background-color: #000000;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back h3 {
+    margin-top: 40%;
+}
 /* Tourist */
 
 #tourist .parent {
@@ -340,6 +382,7 @@ a.active, .nav a:hover{
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 15px;
+    margin-left: -10px;
 }
 
 .arema-fc {
@@ -438,13 +481,13 @@ a.active, .nav a:hover{
 }
 
 .arema-text {
-    margin: -100px 30px 0 70px;
+    margin: -100px 30px 0 75px;
 }
 
 .walikan-text {
-    margin: -100px 30px 0 78px;
+    margin: -100px 30px 0 90px;
 }
 
 .malangan-text {
-    margin: -100px 0 0 50px;
+    margin: -100px 0 0 65px;
 }
