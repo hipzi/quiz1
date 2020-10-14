@@ -301,8 +301,150 @@ a.active, .nav a:hover{
 /* Hometown */
 
 #hometown {
-    margin: 100px 0 0 300px;
+    margin: 60px 0 0 300px;
     background-color: black;
-    width: 700px;
-    height: 700px;
+    width: 710px;
+    height:960px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+#hometown h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#hometown hr {
+    width: 100%;
+    border-top: 2px solid #ffffff;
+}
+
+#hometown p {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#hometown span {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#hometown h4 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.arema-fc {
+    width: 220px;
+    height: 180px;
+    background: transparent url("../quiz1/img/arema.jpg") no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+
+.arema-fc:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    width: 0;
+    height: 3px;    
+    border-right: 55px solid transparent;
+    border-bottom: 90px solid #000000;
+    border-top: 90px solid #000000;
+}
+
+.arema-fc:after {
+    content: "";
+    position: absolute;
+    right: -1px;
+    width: 0;
+    height: 3px;    
+    border-left: 55px solid transparent;
+    border-bottom: 90px solid #000000;
+    border-top: 90px solid #000000;
+}
+
+.walikan-language {
+    width: 220px;
+    height: 180px;
+    background: transparent url("../quiz1/img/language.jpg") no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+
+.walikan-language:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    width: 0;
+    height: 3px;    
+    border-right: 55px solid transparent;
+    border-bottom: 90px solid #000000;
+    border-top: 90px solid #000000;
+}
+
+.walikan-language:after {
+    content: "";
+    position: absolute;
+    right: -1px;
+    width: 0;
+    height: 3px;    
+    border-left: 55px solid transparent;
+    border-bottom: 90px solid #000000;
+    border-top: 90px solid #000000;
+}
+
+.malangan-mask {
+    width: 220px;
+    height: 180px;
+    background: transparent url("../quiz1/img/Malangan-mask.jpg") no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+
+.malangan-mask:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    width: 0;
+    height: 3px;    
+    border-right: 55px solid transparent;
+    border-bottom: 90px solid #000000;
+    border-top: 90px solid #000000;
+}
+
+.malangan-mask:after {
+    content: "";
+    position: absolute;
+    right: -1px;
+    width: 0;
+    height: 3px;    
+    border-left: 55px solid transparent;
+    border-bottom: 90px solid #000000;
+    border-top: 90px solid #000000;
+}
+
+#title-image {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.arema-text {
+    margin: -100px 30px 0 70px;
+}
+
+.walikan-text {
+    margin: -100px 30px 0 78px;
+}
+
+.malangan-text {
+    margin: -100px 0 0 50px;
 }
