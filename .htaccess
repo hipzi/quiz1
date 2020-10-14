@@ -1,5 +1,8 @@
 RewriteEngine on 
 
+# redirect
+RedirectMatch ^/$ https://webpro-quiz1.herokuapp.com/quiz1
+
 # redirect html pages to the root domain
 RewriteRule ^index\.html$ / [NC,R,L]
 
