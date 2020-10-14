@@ -21,7 +21,7 @@ html, body{
 }
 
 .nav{
-    width: 350px;
+    width: 220px;
     height: auto;
     position: absolute;
     top: 20%;
@@ -37,8 +37,9 @@ html, body{
     display: inline-block;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     transition: 300ms;
+    padding-left: 25px;
 }
 
 a.active, .nav a:hover{
@@ -46,41 +47,43 @@ a.active, .nav a:hover{
     color: black;
     width: 100%;
     text-decoration: none;
+    text-align: center;
+    padding-left: 0;
 }
 
 .a{
     width: 85%;
-    height: 90px;
-    font-size: 28px;
-    line-height: 90px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
 }
 
 .b{
     width: 65%;
-    height: 90px;
-    font-size: 28px;
-    line-height: 90px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
 }
 
 .c{
     width: 80%;
-    height: 90px;
-    font-size: 28px;
-    line-height: 90px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
 }
 
 .d{
     width: 65%;
-    height: 90px;
-    font-size: 28px;
-    line-height: 90px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
 }
 
 .e{
     width: 85%;
-    height: 90px;
-    font-size: 28px;
-    line-height: 90px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
 }
 
 .btn{
@@ -115,13 +118,13 @@ a.active, .nav a:hover{
 }
 
 .home h1{
-    font-size: 80px;
-    border-bottom: 5px solid black;
+    font-size: 65px;
+    border-bottom: 4px solid black;
     text-transform: uppercase;
 }
 
 .home h3{
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 5px 0;
     opacity: 0.6;
 }
@@ -129,7 +132,7 @@ a.active, .nav a:hover{
 /* Profile */
 
 #profile {
-    margin: 160px 0 0 300px;
+    margin: 60px 0 0 300px;
     background-color: black;
     width: 700px;
     height: 500px;
@@ -138,20 +141,20 @@ a.active, .nav a:hover{
 
 .profile-title {
     font-family: 'Roboto', sans-serif; 
-    margin-top: -120px; 
-    margin-left: 240px; 
+    margin-top: -150px; 
+    margin-left: 250px; 
     color:white; 
-    font-size:42px; 
+    font-size:40px; 
     text-transform:uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .profile-body {
     font-family: 'Roboto', sans-serif; 
-    margin-top: 80px; 
-    margin-left: 240px; 
+    margin-top: 90px; 
+    margin-left: 250px; 
     color:white; 
-    font-size:15px;
+    font-size:14px;
 }
 
 #contact {
@@ -170,7 +173,7 @@ a.active, .nav a:hover{
 .flip-card {
     background-color: transparent;
     width: 200px;
-    height: 200px;
+    height: 210px;
     margin-left: 15px;
     perspective: 1000px;
 }
@@ -220,109 +223,110 @@ a.active, .nav a:hover{
 #tourist a { 
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size:20px;
-    margin-top: 220px;
+    font-size:16px;
+    margin-top: 160px;
     text-decoration: none;
     display: inline-block;
+    z-index: 1;
 }
 
 #img {
-    margin: 50px 0 0 250px;
+    margin: 20px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/3-color-beach.jpg');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 #img-2 {
-    margin: 50px 0 0 250px;
+    margin: 20px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/singosari-temple.jpg');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 #img-3 {
-    margin: 50px 0 0 250px;
+    margin: 20px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/Coban-Rondo.jpg');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 #img-4 {
-    margin: 30px 0 0 250px;
+    margin: 30px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/Jodipan-Village.jpg');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 #img-5 {
-    margin: 30px 0 0 250px;
+    margin: 30px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/wonosari-tea.png');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 #img-6 {
-    margin: 30px 0 0 250px;
+    margin: 30px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/goa-china.jpg');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 #img-7 {
-    margin: 30px 0 0 250px;
+    margin: 30px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/andeman.JPG');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 #img-8 {
-    margin: 30px 0 0 250px;
+    margin: 30px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/asmara-bay-beach.jpg');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 #img-9 {
-    margin: 30px 0 0 250px;
+    margin: 30px 0 0 300px;
     background-color: black;
-    width: 270px;
-    height: 290px;
+    width: 220px;
+    height: 210px;
     background-image: url('img/malang-night-paradise.jpg');
-    background-position: center top;
+    background-position: -1px -1px;
     background-repeat: no-repeat;
-    background-size: 270px 220px;
+    background-size: 220px 170px;
 }
 
 .modal-content {
@@ -333,17 +337,17 @@ a.active, .nav a:hover{
 /* Food */
 
 #food {
-    margin: 100px 0 0 300px;
+    margin: 20px 0 0 350px;
     background-color: black;
-    width: 700px;
-    height: 690px;
+    width: 600px;
+    height: 580px;
     padding-top: 10px;
 }
 
 /* Hometown */
 
 #hometown {
-    margin: 60px 0 0 300px;
+    margin: 50px 0 0 300px;
     background-color: black;
     width: 710px;
     height:960px;
@@ -367,7 +371,7 @@ a.active, .nav a:hover{
 #hometown p {
     color: #ffffff;
     text-align: justify;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #hometown span {
@@ -481,13 +485,13 @@ a.active, .nav a:hover{
 }
 
 .arema-text {
-    margin: -100px 30px 0 75px;
+    margin: -100px 30px 0 80px;
 }
 
 .walikan-text {
-    margin: -100px 30px 0 90px;
+    margin: -100px 30px 0 100px;
 }
 
 .malangan-text {
-    margin: -100px 0 0 65px;
+    margin: -100px 0 0 85px;
 }
