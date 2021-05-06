@@ -118,8 +118,8 @@ a.active, .nav a:hover{
 }
 
 .home h1{
-    font-size: 65px;
-    border-bottom: 4px solid black;
+    font-size: 40px;
+    border-bottom: 3px solid black;
     text-transform: uppercase;
 }
 
